@@ -1,9 +1,9 @@
 {
   "name": "system-monitor",
   "displayName": "System Monitor",
-  "description": "Muestra el uso de CPU y RAM en la barra de estado de VSCode",
+  "description": "Shows CPU and RAM on the pulse bar on VSCode, meh, nothing new",
   "version": "0.0.1",
-  "publisher": "tu-nombre",
+  "publisher": "David Pincheira",
   "engines": { "vscode": "^1.80.0" },
   "activationEvents": ["onStartupFinished"],
   "main": "./extension.js",
