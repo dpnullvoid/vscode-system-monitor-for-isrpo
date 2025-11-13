@@ -3,7 +3,7 @@
   "displayName": "System Monitor",
   "description": "Shows CPU and RAM on the pulse bar on VSCode, meh, nothing new",
   "version": "0.0.1",
-  "publisher": "David Pincheira",
+  "publisher": "davidpincheira",
   "engines": { "vscode": "^1.80.0" },
   "activationEvents": ["onStartupFinished"],
   "main": "./extension.js",
