@@ -1,0 +1,22 @@
+{
+  "name": "system-monitor",
+  "displayName": "System Monitor",
+  "description": "Muestra el uso de CPU y RAM en la barra de estado de VSCode",
+  "version": "0.0.1",
+  "publisher": "tu-nombre",
+  "engines": { "vscode": "^1.80.0" },
+  "activationEvents": ["onStartupFinished"],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "systemMonitor.show",
+        "title": "Mostrar Uso del Sistema"
+      }
+    ]
+  },
+  "dependencies": {
+    "os-utils": "^0.0.14"
+  }
+}
+
