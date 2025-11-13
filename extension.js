@@ -8,7 +8,7 @@ const osu = require('os-utils');
 function activate(context) {
   let statusBarItem =
       vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Left, 100);
-  statusBarItem.text = '$(pulse) Monitoreando...';
+  statusBarItem.text = '$(pulse) BRRRRR Monitoring BRRRRR...';
   statusBarItem.show();
   context.subscriptions.push(statusBarItem);
 
